@@ -183,7 +183,7 @@ article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* align-items: center; */
-    margin: 0 100px;
+    margin: 0 100px 100px;
 }
 .all-gear-image img{
     width: 404px;
@@ -206,4 +206,25 @@ article {
 }
 .join-now-button i{
     color: white;
+}
+
+footer {
+    /* display: flex; */
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+    padding: 25px 0;
+}
+
+footer h3{
+    margin: 0;
+}
+footer p{
+    color: #D9DBE1;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+}
+.fa-brands {
+    margin: 10px;
+
 }
